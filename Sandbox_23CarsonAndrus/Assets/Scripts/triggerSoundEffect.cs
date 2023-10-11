@@ -6,7 +6,7 @@ public class triggerSoundEffect : MonoBehaviour
 {
  
  public AudioSource playSound;
-
+    //plays clip when trigger is hit.
     void OnTriggerEnter(Collider other)
     {
         playSound.Play();

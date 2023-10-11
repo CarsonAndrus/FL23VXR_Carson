@@ -7,7 +7,7 @@ public class audioManager : MonoBehaviour
     
 
     public AudioSource soundPlayer;
-    
+    public AudioClip clip;
     
     
  
@@ -16,13 +16,26 @@ public class audioManager : MonoBehaviour
     {
         soundPlayer.Play();
     }
-    /*
+   
+    
+    
+    
+    //plays audiosource with a scaled volume of 5.0f
+    public void playSoundEffectOneShot()
+    {
+        soundPlayer.PlayOneShot(clip, 5.0f);
+    }
+
+
     //stops audiosource
     public void stopSoundEffect()
     {
         soundPlayer.Stop();
     }
-    */
+
+
+
+
 
 
 
