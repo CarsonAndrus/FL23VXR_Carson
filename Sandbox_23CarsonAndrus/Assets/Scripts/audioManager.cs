@@ -16,12 +16,13 @@ public class audioManager : MonoBehaviour
     {
         soundPlayer.Play();
     }
+    /*
     //stops audiosource
     public void stopSoundEffect()
     {
         soundPlayer.Stop();
     }
-
+    */
 
 
 
