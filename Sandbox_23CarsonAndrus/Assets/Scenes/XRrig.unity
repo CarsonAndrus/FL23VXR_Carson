@@ -253,6 +253,7 @@ GameObject:
   - component: {fileID: 318028752}
   - component: {fileID: 318028751}
   - component: {fileID: 318028750}
+  - component: {fileID: 318028753}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -296,12 +297,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: f8650376-f30e-443a-92a3-6f21f8e4af65
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: c912aee4-08aa-4627-80b3-994d7bc18a9a
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -324,12 +325,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 1471f793-c712-4491-9c43-cf1b3ec9442e
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: fdd2ad29-abf0-4186-8e5c-52e6391d867f
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -352,12 +353,12 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: Integer
-      m_Id: 
+      m_Id: 2db56bc4-604b-4841-9a34-92e76fe5dd46
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: cb5ae39f-caae-49ec-8603-ed54897e5215
         m_Path: <XRHMD>/trackingState
         m_Interactions: 
         m_Processors: 
@@ -444,6 +445,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &318028753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318028748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &379312325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1095,7 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: e5d3c1ec-ddd0-4f14-af07-0f5b1f25813a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1062,7 +1107,7 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 6f5816e4-e6db-4759-b50a-db5ee056cfb9
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1074,7 +1119,7 @@ MonoBehaviour:
       m_Name: Is Tracked
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: a1da100b-bf74-4348-b383-56874850c066
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1086,7 +1131,7 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: Integer
-      m_Id: 
+      m_Id: 5677f592-5b92-4b0b-b53f-52403c1dadaa
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1098,7 +1143,7 @@ MonoBehaviour:
       m_Name: Select
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 72e9095c-bcf4-4595-95fb-7a962001899a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1110,7 +1155,7 @@ MonoBehaviour:
       m_Name: Select Value
       m_Type: 0
       m_ExpectedControlType: Axis
-      m_Id: 
+      m_Id: bb59f40d-cfc0-4b5d-88da-4ceb4da0d797
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1122,7 +1167,7 @@ MonoBehaviour:
       m_Name: Activate
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: e8397642-0eeb-4748-9023-a39636d2cc6b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1134,7 +1179,7 @@ MonoBehaviour:
       m_Name: Activate Value
       m_Type: 0
       m_ExpectedControlType: Axis
-      m_Id: 
+      m_Id: ae2bbf35-4b19-4dab-aec7-3c8b04e3f272
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1146,7 +1191,7 @@ MonoBehaviour:
       m_Name: UI Press
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 689de372-cc77-40f6-a52c-c1524d862d28
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1158,7 +1203,7 @@ MonoBehaviour:
       m_Name: UI Press Value
       m_Type: 0
       m_ExpectedControlType: Axis
-      m_Id: 
+      m_Id: 8723129e-38c6-4cb5-83d1-92a20d23d26b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1170,7 +1215,7 @@ MonoBehaviour:
       m_Name: UI Scroll
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: 62e40672-f431-4589-8225-cf1be9c0339c
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1182,7 +1227,7 @@ MonoBehaviour:
       m_Name: Haptic Device
       m_Type: 2
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 11090cb5-fa71-40e3-a415-899ba5a3aedb
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1194,7 +1239,7 @@ MonoBehaviour:
       m_Name: Rotate Anchor
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: f2f03e54-ac33-4d44-adac-3414b8dabfdc
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1206,7 +1251,7 @@ MonoBehaviour:
       m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: a1dd318b-dded-49cb-9779-335019117e5e
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1218,7 +1263,7 @@ MonoBehaviour:
       m_Name: Translate Anchor
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: bb31f055-f3a0-49c3-9e6f-a49dfdc42cc4
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1744,7 +1789,7 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: f625595c-b773-4da2-9440-b660ae7f2745
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1756,7 +1801,7 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: f48e2497-1229-484d-9cfb-a38ffb7e7ed2
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1768,7 +1813,7 @@ MonoBehaviour:
       m_Name: Is Tracked
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: d4ff2aa5-685e-4203-88e4-9a1cce453f37
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1780,7 +1825,7 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: Integer
-      m_Id: 
+      m_Id: 6d45a5e4-c590-48ec-b1e7-f6964bc8ec93
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1792,7 +1837,7 @@ MonoBehaviour:
       m_Name: Select
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: a6f667ab-92ae-44ef-8235-d7c478fb07a1
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1804,7 +1849,7 @@ MonoBehaviour:
       m_Name: Select Value
       m_Type: 0
       m_ExpectedControlType: Axis
-      m_Id: 
+      m_Id: 017ebc6e-2c6d-41e3-a8a7-3c17f9337630
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1816,7 +1861,7 @@ MonoBehaviour:
       m_Name: Activate
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 58e99387-a4eb-4d76-8dd8-420d125d49cb
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1828,7 +1873,7 @@ MonoBehaviour:
       m_Name: Activate Value
       m_Type: 0
       m_ExpectedControlType: Axis
-      m_Id: 
+      m_Id: cffc2638-cb35-478a-a125-b85425f36891
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1840,7 +1885,7 @@ MonoBehaviour:
       m_Name: UI Press
       m_Type: 1
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 1f6b6e1b-6a66-419f-ad02-221b54d71a20
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1852,7 +1897,7 @@ MonoBehaviour:
       m_Name: UI Press Value
       m_Type: 0
       m_ExpectedControlType: Axis
-      m_Id: 
+      m_Id: 76ec0181-240e-48e5-b1c2-d15b5aae7710
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1864,7 +1909,7 @@ MonoBehaviour:
       m_Name: UI Scroll
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: 95132525-1654-4713-8545-37cfd1d51a7b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1876,7 +1921,7 @@ MonoBehaviour:
       m_Name: Haptic Device
       m_Type: 2
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 37ab5a15-076c-442c-b730-f572b36fde39
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1888,7 +1933,7 @@ MonoBehaviour:
       m_Name: Rotate Anchor
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: 73778109-900a-4d20-b851-4c4bcde41c63
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1900,7 +1945,7 @@ MonoBehaviour:
       m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: eb452c5e-8a69-4edd-96d9-4f5a36de9c34
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1912,7 +1957,7 @@ MonoBehaviour:
       m_Name: Translate Anchor
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: 
+      m_Id: 95294b8f-e215-4259-beb8-f22d0411ff9a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
