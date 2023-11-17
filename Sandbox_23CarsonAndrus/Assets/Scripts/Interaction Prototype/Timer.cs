@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] float remainingTime;
     public GameObject Ball;
+    public GameObject Canvas;
     void Update()
     {
         //prevents timer going lower than 0
@@ -16,11 +17,12 @@ public class Timer : MonoBehaviour
         {
             remainingTime -= Time.deltaTime;
         }
-       // spawns ball when timer ends
+       // spawns ball and turns off timer when timer ends
         else if (remainingTime < 0)
         {
             remainingTime = 0;
             Ball.SetActive(true);
+            Canvas.SetActive(false);
         }
 
         
