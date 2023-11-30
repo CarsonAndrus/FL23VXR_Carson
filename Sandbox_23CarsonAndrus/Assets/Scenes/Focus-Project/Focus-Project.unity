@@ -2237,6 +2237,26 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8591832221060013684, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591832221060013684, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591832221060013684, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999668
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591832221060013684, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.008151122
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591832221060013684, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.934
+      objectReference: {fileID: 0}
     - target: {fileID: 8832645947482656697, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -2352,6 +2372,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1025171813391297897, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+    - {fileID: 61444987677663644, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+    - {fileID: 61444989031971350, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
+    - {fileID: 7306516362312718956, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1466891514438344496, guid: 5346d3beb352b0e4b94153e812d9c637, type: 3}
       insertIndex: -1
